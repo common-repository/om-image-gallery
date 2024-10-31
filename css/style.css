@@ -1,0 +1,40 @@
+/* CSS Document */
+@import "grid.css";
+@import "thumb-Up.css";
+#navigation li{ padding-left:0px;}
+.home-image img{ width:100%;}
+.#grid > #posts .post{ width:auto !important; float:left !important;}
+.main-text-home{color:#524641; float:left; width:704px; padding-top:50px; font-weight:bold;}
+.last-text-home{color:#524641; width:100%; font-weight:400; text-align:justify;font-weight:bold;}
+.main-conter{ display:block; width:100%;}
+.coming-soon{background-color:rgba(255,255,255,0.6); padding:20px; width:100%; text-align:center; color:#716864; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; text-shadow:2px -1px 1px #000000; float:left;  margin:0px;}
+#menu-button{width:60px; margin:auto; padding-left:10px; cursor:pointer; display:none;}
+
+/*Pagination*/
+.pagination-image-gallery{ width:340px; margin:auto; }
+.pagination-image-gallery li{  
+  background: rgba(51, 51, 51, 0.6);
+    float: left;
+    font-size: 18px;
+    list-style: outside none none; color:#FFF; text-transform:uppercase;
+    margin-right: 14px;
+    padding: 6px; border-radius:4px; cursor:pointer;}
+.pagination-image-gallery li a{ color:#FFF;} 
+@media (min-width: 100px) and (max-width: 944px) {
+.main-conter{ padding:10px;}
+h1#welcome{ display: block;
+    float: none;
+    margin: auto;}	
+.clearfloat,.home-image,.container{width:100%;}
+.main-text-home{ padding-top:0px; margin-top:4p; width:100%; text-align:center;}
+.last-text-home{padding:4px; text-align:justify; width:94%; margin:auto;}
+a.logo{ margin:auto;}
+#banner{ width:100% !important;}
+#navigation{width:100%; margin:auto;}
+#navigation ul{ display:none; position:absolute;left: 50% !important; background-color:rgba(255,255,255,0.4); width:196px;margin-left:-98px !important; border:#CCC 1px solid; box-shadow:1px 1px 4px 1px #666; z-index:10000000;}
+#navigation li{position: relative;
+width: 181px; float:none !important;  margin-top:12px !important;}
+#menu-button{ display:block;}	
+}
+
+

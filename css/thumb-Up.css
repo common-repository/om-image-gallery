@@ -1,0 +1,17 @@
+/* CSS Document */
+#grid{ width:100% !important; margin:auto;}
+.thumb-view{ padding-left:0px; height:42px; display:inline-block;margin-top:-50px; z-index:100; position:relative; background-color:rgba(0,0,0,1); padding:2px 8px; border-radius:4px;}
+.thumb-view li{ list-style:none;float:left; line-height:48px; padding:2px;}
+.thumb-container{ width:76px; margin:auto; }
+.thumb-up,.thumb-up-deactive{ background-image:url(../images/thumb-up.png); width:32px; height:32px; float:left; background-repeat:no-repeat; margin-right:6px; cursor:pointer;}
+#like-value,#dis-like{color:#FFFFFF;}
+.thumb-up:hover{background-image:url(../images/thumb-up-hover.png);}
+.thumb-up-active{background-image:url(../images/thumb-up-hover.png) !important;}
+.thumb-down,.thumb-down-deactive{background-image:url(../images/thumb-down.png); width:32px; height:32px;float:left; background-repeat:no-repeat;margin-left:6px; cursor:pointer;}
+.thumb-down:hover{background-image:url(../images/thumb-down-hover.png);}
+.thumb-down-active{background-image:url(../images/thumb-down-hover.png) !important;}
+.flag{background-image:url(../images/flag.png);background-repeat:no-repeat;}
+.eye{background-image:url(../images/eye.png);background-repeat:no-repeat;}
+.main-view-contaner{ margin-left:0px; background:#BCBBBB; display:inline-block; width:100%; padding:0px; padding-top:6px; padding-bottom:6px; padding-left:6px; border-radius:0px 0px 4px 4px; margin-top:-22px;}
+.main-view-contaner li{ float:left; padding-left:10px; line-height:8px; margin-right:8px; font-size:11px; cursor:pointer;}
+.main-view-contaner li:nth-child(2){padding-left:14px; font-size:11px;}
